@@ -1,0 +1,30 @@
+.contato{
+  width: 50%;
+  height: 85vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  gap: 1.5rem;
+  
+}
+.icones{
+  flex-wrap: wrap;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content:space-around;
+  padding-block: 1.5rem;
+}
+.icone{
+  font-size: 3rem;
+  color:var(--red) ;
+margin: 10px 10px;
+}
+.icone:hover{
+  filter: brightness(1.1);
+  color: var(--green);
+}

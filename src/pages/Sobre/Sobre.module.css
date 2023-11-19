@@ -1,0 +1,52 @@
+.Sobre_Bg{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.Sobre_Perfil{
+  display: flex;
+  width: 500px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.Sobre_Desc{
+  width: 500px;
+  font-size: 1.25rem;
+}
+.Sobre_Desc h1{
+  text-align: center;
+}
+.Sobre_Desc span{
+  color: var(--red);
+}
+.Sobre_Desc h1{
+  font-size: 3rem;
+}
+.Sobre_Desc p{
+  margin-top: 20px;
+}
+
+
+
+.Sobre_Icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.Sobre_Icons h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.Sobre_IconImg{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

@@ -1,0 +1,38 @@
+
+
+
+.menuBg{
+  background-color: var(--primary);
+}
+.menu{
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.menu a{
+  color:var(--white);
+  padding: 0 15px;
+  transition: 0.3s;
+
+}
+.menu a:hover{
+  color:var(--red);
+}
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu nav a{
+  font-size: 1.25rem;
+  display: block;
+  padding: 0 10px;
+}

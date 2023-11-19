@@ -1,0 +1,17 @@
+.page404{
+  padding-top:2rem ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.titulo{
+font-size: 3rem;
+font-weight: bold;
+}
+
+.conteudoError span{
+  color:var(--red);
+  font-size: 15rem;
+}
+.conteudoError strong{font-size: 2rem;}
